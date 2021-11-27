@@ -9,7 +9,7 @@ const App = () => {
   return (
       <Suspense fallback={<span>loading...</span>}>
         <Canvas linear dpr={[1, 2]} gl={{ preserveDrawingBuffer: true }} camera={{ fov: 45, position: [0, 0, 200] }}>
-          <color attach="background" args={['#1e2243']} />
+          <color attach="background" args={['#020C1B']} />
           <Lights/>
           <Environment preset='night' />
           <OrbitControls />
